@@ -162,26 +162,42 @@
   <section id="grace">
     <h2>Grace</h2>
       <ul>
+
       <section id="grace1">
         <h3>Overview</h3>
-        <p>Content goes here</p>
+        <p style="text-indent: 20px;">
+          Content goes here
+        </p>
       </section>
+
       <section id="grace2">
         <h3>Security & Access</h3>
-        <p>Content goes here</p>
+          <p style="text-indent: 20px;">
+            Content goes here
+          </p>
       </section>
+
       <section id="grace3">
         <h3>Hardware</h3>
-        <p>Content goes here</p>
+          <p style="text-indent: 20px;">
+            Content goes here
+          </p>
       </section>
+
       <section id="grace4">
         <h3>Batch</h3>
-        <p>Content goes here</p>
+        <p style="text-indent: 20px;">
+            Content goes here
+          </p>
       </section>
+
       <section id="grace5">
         <h3>Conclusion</h3>
-        <p>Content goes here</p>
+          <p style="text-indent: 20px;">
+            Content goes here
+          </p>
       </section>
+
     </ul>
   </section>
 
@@ -190,23 +206,72 @@
       <ul>
           <section id="terra1">
             <h3>Overview</h3>
-            <p>Content goes here</p>
+              <p style="text-indent: 20px;">
+                <!--PICTURE GOES HERE-->
+                Texas A&M University owns and manages the supercomputer Terra, which has 9,632 cores and 320 nodes. It was built in the Teague Data Center
+                in February 2017 for a cost of about 2.1 million dollars. The name "Terra" refers to its primary function, which is to analyze images obtained
+                from an Earth observation satellite. This supercomputer, according to the university, also aimed to boost computing power for initiatives like
+                the creation of new materials, the discovery of new medicines, storm forecasting, and energy management.
+              </p>
           </section>
+
           <section id="terra2">
             <h3>Security & Access</h3>
-            <p>Content goes here</p>
+              <p style="text-indent: 20px;">
+                The High-Performance Research Center is an open facility that allows TAMU users to access computing resources. It is illegal to use the computers
+                in a manner that violates Export Administration Regulations policies or the policy in place by the International Trafficking in Arms Regulations. 
+              </p>
+              <p style="text-indent: 20px;">
+                The HPRC upholds specific rules for data storage in order to store data effectively and safely. For starters, files used on the particular server
+                are stored on disk. The directories are not meant for long-term archival. Staff members occasionally have the ability to delete files to reduce
+                processing loads when file quotas are reached. There is no backup of any external files.
+              </p>
+              <p style="text-indent: 20px;">
+                Access to Terra is heavily monitored to ensure fair and safe usage. Secure shells are used to access Terra and two factor authentication is needed
+                in order to gain access. 
+              </p>
           </section>
+
           <section id="terra3">
             <h3>Hardware</h3>
-            <p>Content goes here</p>
+              <p style="text-indent: 20px;">
+                Terra is a supercomputer with 320 compute nodes, totaling 9,632 total cores. It runs on Linux (CentOS 7) and has a peak performance of 377 TFLOPs,
+                meaning it can run 377 trillion floating point operations per second. An overview of the hardware can be seen below:
+              </p>
+              <!--PICTURE HERE-->
+              
           </section>
+
           <section id="terra4">
             <h3>Batch</h3>
-            <p>Content goes here</p>
+              <p style="text-indent: 20px;">
+                Terra uses a batch system to ensure fair use for computing resources. By using this system, users can reserve resources without having any impact on
+                other users.The attempt to get around the batch system is a violation of policies stated in section 1.2. Below is the basics of Slurm, which is
+                enough information to run your own Batch process on Terra:
+              </p>
+              <!--PICTURE Here-->
+              <p>
+                Once you have created the job, you may submit it using the following command:
+              </p>
+              <p>
+                sbatch MyJob.slurm <!--FIX THIS-->
+              </p>
+              <p style="text-indent: 20px;">
+                Although batches are great for ensuring that everyone gets to use Terra in a fair manner. Limitations are set in place for large jobs to only get
+                a specific amount of time to run. This means that large jobs may not get to finish in one go. Therefore, there is a need for Checkpointing.
+                Checkpointing basically aims to save the current progress of the job, so if it is interrupted, there is an ability to resume at any point.
+                The ability to save right before the end of the job is the most used example of checkpointing, however, users technically have the ability
+                to save manually as well. 
+              </p>
           </section>
+
           <section id="terra5">
             <h3>Conclusion</h3>
-            <p>Content goes here</p>
+              <p style="text-indent: 20px;">
+                Terra is a supercomputer that allows for speedy computing of large jobs. Although it is currently slower than other supercomputers on the A&M Campus,
+                it is still used by many organizations that need it. The HPRC upholds policies and software that ensure that users get a fair and efficient service,
+                allowing users to perform ground breaking research. 
+              </p>
           </section>
 
         </ul>
